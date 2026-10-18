@@ -1,0 +1,37 @@
+[
+  {
+    "source_id": "employee-handbook",
+    "title": "Remote Work Policy",
+    "doc_type": "policy",
+    "age_days": 5,
+    "text": "Employees may work remotely up to three days per week with manager approval. Core collaboration hours are 10:00 to 15:00 in the employee's local time zone. Remote employees must use the company VPN and keep devices encrypted. Home office equipment is reimbursed up to a fixed stipend each year."
+  },
+  {
+    "source_id": "security-handbook",
+    "title": "Authentication and Access Control",
+    "doc_type": "policy",
+    "age_days": 2,
+    "text": "All employee accounts use single sign-on with OAuth and SAML. Multi factor authentication is mandatory for production systems. Access reviews happen quarterly and unused permissions are revoked automatically. Security incidents must be reported to the security team within one hour of discovery."
+  },
+  {
+    "source_id": "billing-guide",
+    "title": "Billing and Refunds",
+    "doc_type": "guide",
+    "age_days": 12,
+    "text": "Customers are billed monthly at the start of each subscription period. Invoices are emailed and stored in the billing portal. Refunds are issued to the original payment method within ten business days of approval. Proration applies when a subscription plan changes mid-cycle."
+  },
+  {
+    "source_id": "legacy-billing-memo",
+    "title": "Legacy Billing Memo (2023)",
+    "doc_type": "guide",
+    "age_days": 400,
+    "text": "Under the legacy process, refunds were mailed as paper checks within ninety days and invoices were printed and posted to customers each quarter. This memo describes the retired billing workflow kept for historical reference."
+  },
+  {
+    "source_id": "data-handbook",
+    "title": "Data Platform Standards",
+    "doc_type": "guide",
+    "age_days": 20,
+    "text": "Batch pipelines load the analytics warehouse every night and streaming pipelines update key datasets within fifteen minutes. Every dataset has an owner, a schema contract, and lineage tracked in the catalog. Breaking schema changes require a deprecation window and consumer sign-off."
+  }
+]
